@@ -7,3 +7,5 @@ def test_parse_riff_subsection_olym():
     assert "index_marks" in result
     assert "start_datetime" in result
     assert "end_datetime" in result
+
+    assert len(result["index_marks"]) == 2
